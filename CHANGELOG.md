@@ -1,6 +1,11 @@
 # midea_inventor_dehumidifier Change Log
 
 All notable changes to this project will be documented in this file.
+## [1.0.6] - 2019-11-30
+### Fixed
+- Fixed structure
+- Fixed file naming
+- Reworked climate.py to work with HVAC_MODES
 
 ## [1.0.5] - 2019-01-06
 ### Fixed
