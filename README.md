@@ -28,7 +28,7 @@ Some modes now include Ioniser
 FAN_ONLY -> Continious mode - Ion OFF 
 AUTO  ->  Smart Mode - Ion OFF  
 DRY  - >  Dryer Mode 
-COOL  -> Target Mode - Ion ON
+COOL  -> Continious mode - Ion ON
 HEAT  -> Smart Mode - Ion ON
 ```
 
