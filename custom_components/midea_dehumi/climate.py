@@ -67,6 +67,7 @@ SUPPORT_FLAGS = SUPPORT_TARGET_HUMIDITY | SUPPORT_FAN_MODE
 ATTR_DEHUMI_ION = "dehumi_ion"
 ATTR_DEHUMI_MODE = "dehumi_mode"
 ATTR_DEHUMI_FAN_SPEED = "dehumi_fan_speed"
+ATTR_TANK_SHOW = 'tank_show'
 
 #TODO: gestire questo range da midea client (ora c'è il range 30-70 hard-coded!!!!!)
 #MIN_HUMITIDY = 30	#da qualche parte (forse nella libreria) è deciso che il valore minimo non può essere < 35
@@ -226,6 +227,12 @@ class MideaDehumiDevice(ClimateDevice):
 
         _LOGGER.debug("state_attributes = %s", data)
         return data"""
+    @property
+    def device_state_attributes(self):
+        """Return the device specific state attributes."""
+        return {
+            ATTR_TANK_SHOW: self._tankShow
+        }
     @property
     def hvac_dict(self):
         return DEHUMI_HVAC_DICT
