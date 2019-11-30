@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file.
 - Fixed structure
 - Fixed file naming
 - Reworked climate.py to work with HVAC_MODES
+### Added
+- Tank_show is now on attributes of climate so you can use on automations
 
 ## [1.0.5] - 2019-01-06
 ### Fixed
