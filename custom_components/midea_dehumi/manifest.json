@@ -1,0 +1,8 @@
+{
+  "domain": "midea_dehumi",
+  "name": "midea_dehumi",
+  "documentation": "https://github.com/drageloth/midea_dehumi",
+  "dependencies": [],
+  "codeowners": ["@barban-dev"],
+  "requirements": ["midea_inventor_lib"]
+}
