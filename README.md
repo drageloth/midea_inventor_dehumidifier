@@ -1,6 +1,6 @@
-                                      NEW README!!!
+                                                 NEW README!!!
 # midea_dehumi
-This is a midea_dehumi component from barban-dev with fixed HVAC modes for use with Home Assistant
+This is a midea_dehumi component from barban-dev with fixed HVAC modes for use with Home Assistant. This is focused ONLY on use with Home Assistant, so you'll notice lots of files missing from @barban-dev.
 
                                                     DISCLAIMER
 THIS COMPONENT WAS NOT CREATED BY ME! In fact I've got minimum programming skills, as you'll probably realise from the files.
